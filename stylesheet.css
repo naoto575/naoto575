@@ -1,3 +1,33 @@
 .title {
     color: #02ccba;
   }
+
+header{
+    color:black;
+    background-color:cornflowerblue;
+}
+
+p{
+    float:left
+}
+
+.container{
+    padding-top:15px;
+    padding-bottom:30px;
+}
+
+.header-left{
+    float:left;
+    margin-left:10px;
+}
+
+.header-right{
+    float:right;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.top-wrapper{
+    padding:80px 0px 80px 0px;
+    background-image:url(/Users/hayashinaoto/Desktop/HTML LESSON/c292dc176135165f62e1f4debab707ad8_59414822_210202_2.jpg);
+    background-size:auto
+}
