@@ -1,33 +1,61 @@
-.title {
-    color: #02ccba;
-  }
-
 header{
     color:black;
     background-color:cornflowerblue;
+    height:60px;
 }
 
-p{
-    float:left
-}
-
-.container{
-    padding-top:15px;
+.header-container{
+    padding-top:5px;
     padding-bottom:30px;
 }
 
 .header-left{
     float:left;
-    margin-left:10px;
+    font-size:20px;
+    padding:10px 20px 10px 10px;
 }
 
-.header-right{
+.header-list li{
     float:right;
-    background-color: rgba(255, 255, 255, 0.3);
+    list-style:none;
+    background-color: rgba(255, 255, 255, 0.966);
+    padding:5px;
+    margin:0px 50px 10px 5px;
 }
 
 .top-wrapper{
-    padding:80px 0px 80px 0px;
-    background-image:url(/Users/hayashinaoto/Desktop/HTML LESSON/c292dc176135165f62e1f4debab707ad8_59414822_210202_2.jpg);
+    padding:100px 0px 550px 0px;
+    background-image:url(https://naoto575.github.io/naoto575/c292dc176135165f62e1f4debab707ad8_59414822_210202_2.jpg);
     background-size:auto
+}
+
+.top-container h1{
+    color:rgb(250, 146, 9);
+    font-size:50px;
+}
+.top-container p{
+    color:rgb(250, 146, 9);
+}
+
+.lesson-wrapper{
+    height:1000px;
+}
+
+.lesson-container h2{
+    border-bottom:2px solid rgb(153, 149, 149);
+    font-size:28px;
+    text-align: center;
+    padding:10px 0px 0px 0px;
+}
+
+.lesson-item{
+    margin-right:px;
+    float:left;
+    width:30%;
+}
+
+.lesson-item img {
+    width:200px;
+    height:200px;
+    margin:10px,20px,10px,20px;
 }
