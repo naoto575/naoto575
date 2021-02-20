@@ -2,6 +2,8 @@ header{
     color:black;
     background-color:cornflowerblue;
     height:60px;
+    width:100%;
+    position:fixed;
 }
 
 .header-container{
@@ -26,7 +28,7 @@ header{
 .top-wrapper{
     padding:100px 0px 550px 0px;
     background-image:url(https://naoto575.github.io/naoto575/c292dc176135165f62e1f4debab707ad8_59414822_210202_2.jpg);
-    background-size:auto
+    background-size:auto;
 }
 
 .top-container h1{
@@ -35,6 +37,37 @@ header{
 }
 .top-container p{
     color:rgb(250, 146, 9);
+}
+
+.teacher{
+    height:500px;
+}
+
+.teacher h2{
+    border-bottom:2px solid rgb(153, 149, 149);
+    font-size:28px;
+    text-align: center;
+    padding:10px 0px 0px 0px;
+}
+
+.teacher-item{
+    float:left;
+    width:50%;
+
+}
+.teacher-item img{
+    width:400px;
+    height:400px;
+    margin:0px 150px 0px 150px;
+    transition: all 0.5s;
+}
+
+.teacher-item img:hover{
+    opacity: 0.5;
+}
+
+.teacher-item p{
+    text-align:center;
 }
 
 .lesson-wrapper{
@@ -51,11 +84,23 @@ header{
 .lesson-item{
     margin-right:px;
     float:left;
-    width:30%;
+    width:33%;
+    
 }
 
+
 .lesson-item img {
-    width:200px;
-    height:200px;
-    margin:10px,20px,10px,20px;
+    width:400px;
+    height:400px;
+    margin:10px,25px,10px,25px;
+    transition: all 0.5s;
+    
+}
+
+.lesson-item img:hover{
+    opacity: 0.5;
+}
+
+.lesson-item p{
+    text-align:center;
 }
